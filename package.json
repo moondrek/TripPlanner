@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "Daniel": "webpack -w"
+    "build": "webpack -w"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +12,8 @@
   "devDependencies": {
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "mapbox-gl": "^1.12.0"
   }
 }
